@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+}
+
+body, li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    height: 12rem;    
+    width: 20rem;
+    border-radius: 10px;
+}
+
+button {
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}
+
+/* LANDING */
+
+#landing {
+    background-image: url("./images/index-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#landing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #053156;
+    opacity: 50%;
+}
+
+#landing * {
+    z-index: 1;
+}
+
+#landing div {
+    text-align: center;
+    position: relative;
+    padding: 5em 20em
+}
+
+#landing div h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 60px;
+}
+
+#landing div h4 {
+    padding-top: 2em;
+    font-size: 20px;
+}
+
+/* NAV BAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+
+nav li a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+    font-size: x-large; 
+    transform: scale(1.05);
+}
+
+#caps {
+    width: 300px;
+    height: 80px;
+}
+
+#christ {
+    width: 275px;
+    height: 100px;
+}
+
+/* PAGE 2 */
+
+#page2 {
+    background-color: #053156;
+    height: 100vh;
+    display: flex;
+    padding: 0 2em;
+}
+
+#page2 h1 {
+    color: black;
+}
+
+#page2 #left-vertical {
+    background-color: #38b6ff;
+    border-radius: 10px;
+    padding: 10rem 2rem;
+    opacity: 90%;
+    text-align: center;
+}
+
+p {
+    padding: 2rem 0;
+}
+
+#right-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 2rem;
+    padding: 2rem 0;
+    padding-left: 2rem;
+    opacity: 75%;
+}
+
+#top-left, #top-right, #bottom-left, #bottom-right {
+    background-color: #38b6ff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#right-box h1 {
+    text-align: center;
+}
+
+/* PAGE 3 */
+
+#page3 {
+    background-color: #053156;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    padding: 0 2em;
+}
+
+#page3 h1 {
+    color: goldenrod;
+}
+
+#page3 p {
+    color: black;
+}
+
+#page3 #top, #bottom, #right-vertical {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#top, #bottom {
+    padding: 1rem 2rem;
+}
+
+#bottom {
+    margin-top: 2rem;
+}
+
+#left-box {
+    margin: 3rem 5rem 3rem 0;
+    border: 0 3rem;
+}
+
+#right-vertical {
+    padding: 10rem 2rem;
+}
+
+/* PAGE 4 */
+
+#page4 {
+    background-color: #053156;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    padding: 0 2em;
+}
+
+#page4 h1 {
+    color: black;
+}
+
+#page4 p {
+    color: white;
+}
+
+#page4 #top, #page4 #bottom {
+    background-color: #38b6ff;
+    border-radius: 10px;
+    opacity: 75%;
+}
+
+#page4 #right-vertical {
+    background-color: #38b6ff;
+    border-radius: 10px;
+}
+
+#page4 #left-box {
+    margin: 3rem 0 3rem 5rem;
+    border: 0 3rem;
+}
+
+/* #top, #bottom {
+    padding: 1rem 2rem;
+}
+
+#bottom {
+    margin-top: 2rem;
+}
+
+#left-box {
+    margin: 3rem 5rem 3rem 0;
+    border: 0 3rem;
+}
+
+#right-vertical {
+    padding: 10rem 2rem;
+} */
+
+/* PAGE 5 REPEAT OF PAFE 3 */
+
+/* FINAL */
+
+#final img {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 15vw;
+}
